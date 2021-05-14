@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "baseUrl": "./",
+    "outDir": "src/main/webapp/build/ts",
+    // "outFile": "src/main/webapp/js/ts/concrete.js",
+    // "module": "commonjs",
+
+    "checkJs": false,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    // "lib": ["es2015", "es2017", "dom"],
+
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+
+    "paths": {
+      "app/*": ["src/main/frontend/*"]
+    },
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+
+    "removeComments": false,
+    "sourceMap": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es6",
+  },
+  "include": [
+    "src/main/frontend"
+  ],
+  "exclude": [
+    "node_modules", "src/main/webapp/build/js"
+  ]
+}

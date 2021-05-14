@@ -1,0 +1,87 @@
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+/* Modify brand and text color */
+/* .navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: green;
+} */
+
+
+
+.navStyle {
+    position: relative;
+    width: 15rem;
+    display: block;
+    /* border: 1px solid red; */
+}
+
+.imageStyle {
+    position: relative;
+    border: none;
+    /* border: 1px solid green */
+}
+
+nav.bg-dark {
+    background-color: #231f20 !important;
+    color: rgba(255,255,255,1.0) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    background-color: #231f20 !important;
+    color: rgba(255,255,255,1.0) !important;
+}
+.tagline {
+    display: inline-block;
+    position: relative;
+    bottom: -1rem;
+}
+
+.tagline-item {
+    margin: 0px;
+    margin-left: 1.25rem;
+    padding: 0px;
+    border: 1px solid olive;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+/* .tagline-item.navbar-text {
+    position: relative;
+    bottom: -5px;
+    display: inline-block;
+} */
+
+.bg-text {
+    color: rgba(255,255,255,1.0) !important;
+}
+.navbar-dark .navbar-text {
+    color: rgba(255,255,255,1.0) !important;
+}
+.navbar .navbar-nav, .navbar-collapse {
+    background-color: #231f20 !important;
+    color: rgba(255,255,255,1.0) !important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,1.0) !important;
+    border-color: rgba(255,255,255,0.5) !important;
+}
+
+.dropdown-view {
+    border: 1px solid brown;
+    position: fixed;
+    display: inline-block;
+}
+
+.navbar-toggler {
+    margin: 0px 1rem 0px 0.25rem !important;
+    padding: 0px !important;
+}
