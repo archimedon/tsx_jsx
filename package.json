@@ -1,10 +1,10 @@
 {
-  "name": "mix-tsx-jsx",
+  "name": "tsx_jsx",
   "version": "0.0.1",
   "description": "Mix React, Typescript and ES6",
   "repository": {
     "type": "git",
-    "url": "git@github.com:archimedon/mix-tsx-jsx"
+    "url": "git@github.com:archimedon/tsx_jsx"
   },
   "keywords": [
     "typescript",
@@ -13,9 +13,9 @@
   ],
   "author": "Archimedon (ronniedz@icloud.com)",
   "bugs": {
-    "url": "https://github.com/archimedon/mix-tsx-jsx"
+    "url": "https://github.com/archimedon/tsx_jsx"
   },
-  "homepage": "https://iotara.webappdev.com/lib/mix-tsx-jsx",
+  "homepage": "https://iotara.webappdev.com/lib/tsx_jsx",
   "scripts": {
     "serve": "webpack serve --content-base ./src/main/webapp/ --hot",
     "monitor": "webpack-dashboard -- webpack serve --content-base ./src/main/webapp/ --hot",
